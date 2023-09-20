@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{207FFDEE-C039-4817-8B0E-35884FFB6326}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ProductPricings/Model/Product/Price.cs">
+    <Files>
+      <File FileName="ProductPricings/Program.cs" Line="16" Column="1" />
+      <File FileName="ProductPricings/DataConfiguration/ProductContext.cs" Line="11" Column="1" />
+      <File FileName="ProductPricings/DataConfiguration/ProductEntity.cs" Line="7" Column="2" />
+      <File FileName="ProductPricings/Model/Product/Product.cs" Line="11" Column="47" />
+      <File FileName="ProductPricings/Model/Product/Price.cs" Line="6" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProductPricings">
+            <Node name="ProductPricings" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DataConfiguration" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Product" expanded="True">
+                  <Node name="Price.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ProductPricings PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

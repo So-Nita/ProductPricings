@@ -23,13 +23,12 @@
     <None Remove="DataConfiguration\" />
     <None Remove="Model\" />
     <None Remove="Model\Product\" />
+    <None Remove="Controllers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataConfiguration\" />
     <Folder Include="Model\" />
     <Folder Include="Model\Product\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\.editorconfig" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 </Project>
