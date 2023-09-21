@@ -12,7 +12,7 @@ using ProductPricings.DataConfiguration;
 namespace ProductPricings.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20230920053543_M1")]
+    [Migration("20230920073857_M1")]
     partial class M1
     {
         /// <inheritdoc />
@@ -33,6 +33,7 @@ namespace ProductPricings.Migrations
 
                     b.Property<string>("Category")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("varchar");
 
                     b.Property<string>("Code")

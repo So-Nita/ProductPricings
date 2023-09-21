@@ -18,7 +18,7 @@ namespace ProductPricings.Migrations
                     Id = table.Column<string>(type: "varchar(36)", maxLength: 36, nullable: false),
                     Code = table.Column<string>(type: "varchar(20)", maxLength: 20, nullable: false),
                     Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
-                    Category = table.Column<string>(type: "varchar", nullable: false),
+                    Category = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     Created = table.Column<DateTime>(type: "date", nullable: false),
                     LastUpdated = table.Column<DateTime>(type: "date", nullable: true)
                 },

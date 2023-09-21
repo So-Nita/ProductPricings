@@ -30,6 +30,7 @@ namespace ProductPricings.Migrations
 
                     b.Property<string>("Category")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("varchar");
 
                     b.Property<string>("Code")

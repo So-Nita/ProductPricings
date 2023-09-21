@@ -17,18 +17,29 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="DataConfiguration\" />
     <None Remove="Model\" />
-    <None Remove="Model\Product\" />
     <None Remove="Controllers\" />
+    <None Remove="Model\RequestModel\" />
+    <None Remove="MappingEntity\" />
+    <None Remove="Model\ResponseModel\" />
+    <None Remove="Service\" />
+    <None Remove="Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataConfiguration\" />
     <Folder Include="Model\" />
-    <Folder Include="Model\Product\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Model\RequestModel\" />
+    <Folder Include="MappingEntity\" />
+    <Folder Include="Model\ResponseModel\" />
+    <Folder Include="Service\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 </Project>

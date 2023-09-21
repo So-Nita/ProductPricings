@@ -74,3 +74,5 @@
 /Users/borinsonita/Personal/RUPP/OOAD/ProductPricings/ProductPricings/obj/Debug/net7.0/ProductPricings.pdb
 /Users/borinsonita/Personal/RUPP/OOAD/ProductPricings/ProductPricings/obj/Debug/net7.0/ProductPricings.genruntimeconfig.cache
 /Users/borinsonita/Personal/RUPP/OOAD/ProductPricings/ProductPricings/obj/Debug/net7.0/ref/ProductPricings.dll
+/Users/borinsonita/Personal/RUPP/OOAD/ProductPricings/ProductPricings/bin/Debug/net7.0/AutoMapper.dll
+/Users/borinsonita/Personal/RUPP/OOAD/ProductPricings/ProductPricings/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
